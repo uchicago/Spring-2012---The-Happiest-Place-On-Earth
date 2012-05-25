@@ -15,6 +15,11 @@
 		37BF4736156E632C002D654E /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 37BF4735156E632C002D654E /* AppDelegate.m */; };
 		37BF4739156E632C002D654E /* MainStoryboard.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 37BF4737156E632C002D654E /* MainStoryboard.storyboard */; };
 		37BF473C156E632C002D654E /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 37BF473B156E632C002D654E /* ViewController.m */; };
+		37BF4743156E659D002D654E /* CoreLocation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 37BF4742156E659D002D654E /* CoreLocation.framework */; };
+		37BF4745156E7868002D654E /* MapKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 37BF4744156E7868002D654E /* MapKit.framework */; };
+		37BF474D156E818D002D654E /* NSArray+Shuffle.m in Sources */ = {isa = PBXBuildFile; fileRef = 37BF474C156E818D002D654E /* NSArray+Shuffle.m */; };
+		37BF4750156E81AC002D654E /* MickeyMouse.png in Resources */ = {isa = PBXBuildFile; fileRef = 37BF474F156E81AC002D654E /* MickeyMouse.png */; };
+		37BF4753156E8300002D654E /* MyLocation.m in Sources */ = {isa = PBXBuildFile; fileRef = 37BF4752156E8300002D654E /* MyLocation.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -22,15 +27,22 @@
 		37BF4725156E632C002D654E /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
 		37BF4727156E632C002D654E /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
 		37BF4729156E632C002D654E /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
-		37BF472D156E632C002D654E /* HappiestPlaceOnEarth-Info.plist */ = {isa = PBXFileReference; path = "HappiestPlaceOnEarth-Info.plist"; sourceTree = "<group>"; };
+		37BF472D156E632C002D654E /* HappiestPlaceOnEarth-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "HappiestPlaceOnEarth-Info.plist"; sourceTree = "<group>"; };
 		37BF472F156E632C002D654E /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		37BF4731156E632C002D654E /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
-		37BF4733156E632C002D654E /* HappiestPlaceOnEarth-Prefix.pch */ = {isa = PBXFileReference; path = "HappiestPlaceOnEarth-Prefix.pch"; sourceTree = "<group>"; };
-		37BF4734156E632C002D654E /* AppDelegate.h */ = {isa = PBXFileReference; path = AppDelegate.h; sourceTree = "<group>"; };
+		37BF4733156E632C002D654E /* HappiestPlaceOnEarth-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "HappiestPlaceOnEarth-Prefix.pch"; sourceTree = "<group>"; };
+		37BF4734156E632C002D654E /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		37BF4735156E632C002D654E /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
 		37BF4738156E632C002D654E /* en */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = en; path = en.lproj/MainStoryboard.storyboard; sourceTree = "<group>"; };
-		37BF473A156E632C002D654E /* ViewController.h */ = {isa = PBXFileReference; path = ViewController.h; sourceTree = "<group>"; };
+		37BF473A156E632C002D654E /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
 		37BF473B156E632C002D654E /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		37BF4742156E659D002D654E /* CoreLocation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreLocation.framework; path = System/Library/Frameworks/CoreLocation.framework; sourceTree = SDKROOT; };
+		37BF4744156E7868002D654E /* MapKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = MapKit.framework; path = System/Library/Frameworks/MapKit.framework; sourceTree = SDKROOT; };
+		37BF474B156E818C002D654E /* NSArray+Shuffle.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSArray+Shuffle.h"; sourceTree = "<group>"; };
+		37BF474C156E818D002D654E /* NSArray+Shuffle.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSArray+Shuffle.m"; sourceTree = "<group>"; };
+		37BF474F156E81AC002D654E /* MickeyMouse.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = MickeyMouse.png; sourceTree = "<group>"; };
+		37BF4751156E8300002D654E /* MyLocation.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MyLocation.h; sourceTree = "<group>"; };
+		37BF4752156E8300002D654E /* MyLocation.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MyLocation.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -38,6 +50,8 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				37BF4745156E7868002D654E /* MapKit.framework in Frameworks */,
+				37BF4743156E659D002D654E /* CoreLocation.framework in Frameworks */,
 				37BF4726156E632C002D654E /* UIKit.framework in Frameworks */,
 				37BF4728156E632C002D654E /* Foundation.framework in Frameworks */,
 				37BF472A156E632C002D654E /* CoreGraphics.framework in Frameworks */,
@@ -50,6 +64,8 @@
 		37BF4716156E6329002D654E = {
 			isa = PBXGroup;
 			children = (
+				37BF4744156E7868002D654E /* MapKit.framework */,
+				37BF4742156E659D002D654E /* CoreLocation.framework */,
 				37BF472B156E632C002D654E /* HappiestPlaceOnEarth */,
 				37BF4724156E632C002D654E /* Frameworks */,
 				37BF4722156E632C002D654E /* Products */,
@@ -77,11 +93,14 @@
 		37BF472B156E632C002D654E /* HappiestPlaceOnEarth */ = {
 			isa = PBXGroup;
 			children = (
+				37BF4737156E632C002D654E /* MainStoryboard.storyboard */,
 				37BF4734156E632C002D654E /* AppDelegate.h */,
 				37BF4735156E632C002D654E /* AppDelegate.m */,
-				37BF4737156E632C002D654E /* MainStoryboard.storyboard */,
-				37BF473A156E632C002D654E /* ViewController.h */,
 				37BF473B156E632C002D654E /* ViewController.m */,
+				37BF473A156E632C002D654E /* ViewController.h */,
+				37BF4751156E8300002D654E /* MyLocation.h */,
+				37BF4752156E8300002D654E /* MyLocation.m */,
+				37BF474E156E8194002D654E /* Categories */,
 				37BF472C156E632C002D654E /* Supporting Files */,
 			);
 			path = HappiestPlaceOnEarth;
@@ -90,12 +109,22 @@
 		37BF472C156E632C002D654E /* Supporting Files */ = {
 			isa = PBXGroup;
 			children = (
+				37BF474F156E81AC002D654E /* MickeyMouse.png */,
 				37BF472D156E632C002D654E /* HappiestPlaceOnEarth-Info.plist */,
 				37BF472E156E632C002D654E /* InfoPlist.strings */,
 				37BF4731156E632C002D654E /* main.m */,
 				37BF4733156E632C002D654E /* HappiestPlaceOnEarth-Prefix.pch */,
 			);
 			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		37BF474E156E8194002D654E /* Categories */ = {
+			isa = PBXGroup;
+			children = (
+				37BF474B156E818C002D654E /* NSArray+Shuffle.h */,
+				37BF474C156E818D002D654E /* NSArray+Shuffle.m */,
+			);
+			name = Categories;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -151,6 +180,7 @@
 			files = (
 				37BF4730156E632C002D654E /* InfoPlist.strings in Resources */,
 				37BF4739156E632C002D654E /* MainStoryboard.storyboard in Resources */,
+				37BF4750156E81AC002D654E /* MickeyMouse.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -164,6 +194,8 @@
 				37BF4732156E632C002D654E /* main.m in Sources */,
 				37BF4736156E632C002D654E /* AppDelegate.m in Sources */,
 				37BF473C156E632C002D654E /* ViewController.m in Sources */,
+				37BF474D156E818D002D654E /* NSArray+Shuffle.m in Sources */,
+				37BF4753156E8300002D654E /* MyLocation.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -240,6 +272,7 @@
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "HappiestPlaceOnEarth/HappiestPlaceOnEarth-Prefix.pch";
 				INFOPLIST_FILE = "HappiestPlaceOnEarth/HappiestPlaceOnEarth-Info.plist";
+				OTHER_CFLAGS = "-DDEBUG";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				WRAPPER_EXTENSION = app;
 			};
@@ -275,6 +308,7 @@
 				37BF4741156E632C002D654E /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
